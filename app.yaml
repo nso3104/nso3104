@@ -5,14 +5,14 @@ api_version: 1
 threadsafe: true
 
 handlers:
+- url: /stylesheets
+  static_dir: stylesheets
+
 - url: /.*
   script: main.app
-<<<<<<< HEAD
-=======
 
 libraries:
 - name: webapp2
   version: latest
 - name: jinja2
   version: latest
->>>>>>> e50efba... Revert "Revert "first commit""
