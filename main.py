@@ -1,5 +1,4 @@
 import os
-import cgi
 import urllib
 
 from google.appengine.api import users
